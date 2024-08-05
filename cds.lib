@@ -9,6 +9,6 @@ DEFINE sheets $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/etc/cdslib/sheets/US_8th
 UNDEFINE gpdk045
 DEFINE gpdk045_v_5_0 /home/cadence/gpdk045_v_5_0
 #Removed by ddDeleteObj: DEFINE LDO_proj /home/cadence/LDO_IEEE.SSCS/LDO_proj
-DEFINE ldoproj /home/cadence/LDO_IEEE.SSCS/ldoproj
-DEFINE ldoproj1 /home/cadence/LDO_IEEE.SSCS/ldoproj1
-DEFINE LDO#2ePROJ /home/cadence/LDO_IEEE.SSCS/LDO#2ePROJ
+DEFINE ldoproj ./ldoproj
+DEFINE ldoproj1 ./ldoproj1
+DEFINE LDO#2ePROJ ./LDO#2ePROJ
