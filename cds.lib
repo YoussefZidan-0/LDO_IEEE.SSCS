@@ -1,4 +1,4 @@
-# File Created by cadence,,, at Mon Aug  5 08:11:02 2024
+# File Created by cadence,,, at Wed Aug  7 04:16:25 2024
 # assisted by CdsLibEditor
 # Base gpdk045 library definition file	
 
@@ -12,3 +12,4 @@ DEFINE gpdk045_v_5_0 /home/cadence/gpdk045_v_5_0
 DEFINE ldoproj ./ldoproj
 DEFINE ldoproj1 ./ldoproj1
 DEFINE LDO#2ePROJ ./LDO#2ePROJ
+DEFINE gpdk045 /home/cadence/gpdk045_v_5_0/gpdk045

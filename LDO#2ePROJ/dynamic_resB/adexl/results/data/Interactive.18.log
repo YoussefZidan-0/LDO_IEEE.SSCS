@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Aug  7 09:49:33 2024 
+Best design point: 1
+Design specs: 
+	LDO.PROJ:dynamic_resB:1	corner	Nominal - 
+Design parameters: 
+	Ib		10u
+
+Interactive.18
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.18 completed. 
+Current time: Wed Aug  7 09:49:35 2024 

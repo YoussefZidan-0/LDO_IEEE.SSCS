@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/18/2015 00:07 (sjfnl678) $
 \o Sub version:		sub-version  p009 
-\o Arguments:		-cdslib /home/cadence/LDO_IEEE.SSCS/cds.lib -mpssession virtuoso4283 -mpshost berkeley 
+\o Arguments:		-display :0 -mpssession virtuoso1907 -mpshost berkeley -namespace CDBA -cdslib /home/cadence/LDO_IEEE.SSCS/cds.lib 
 \o Working Directory:	berkeley:/home/cadence/LDO_IEEE.SSCS
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
@@ -9,6 +9,35 @@
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "analogLib"
 \a nrResizeWindow(cdsLibEditor list(2 55 500 400))
+\a nrResizeWindow(cdsLibEditor list(215 376 500 400))
+\a cdsLibEditor->fileOpenIncButton->value = t
+\a nrSetWindowVisibility(openIncludeDialog "show")
+\a nrSetCurrentWindow(openIncludeDialog)
+\a nrResizeWindow(openIncludeDialog list(190 471 550 196))
+\a openIncludeDialog->okButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileImportLibDefsButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\a cdsLibEditor->fileImportLibDefsButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 "gpdk045_v_5_0"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 7 1)
+\o Active cell: 7 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/home/cadence/gpdk045_v_5_0"
+\a nrListItemAction(cdsLibEditor->mainTable 7 1)
+\o Active cell: 7 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 8 0)
+\o Active cell: 8 0 ""
 \a cdsLibEditor->fileExitButton->value = t
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrResizeWindow(needSaveDialog list(281 490 369 139))
+\a nrSetCurrentWindow(needSaveDialog)
+\a needSaveDialog->yesButton->value = t
 \a nrSetWindowVisibility(cdsLibEditor "hide")
 \a exit(0)

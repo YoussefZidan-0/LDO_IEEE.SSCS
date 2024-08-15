@@ -1,0 +1,120 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = LDO.PROJ
+	Cell         = dynamic_resB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = LDO.PROJ:dynamic_resB_TB:1_none_Interactive.0
+	Results DB   = /home/cadence/LDO_IEEE.SSCS/LDO#2ePROJ/dynamic_resB_TB/adexl/results/data/Interactive.0.rdb
+	Results Dir  = /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1
+	Results Loc  = /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/LDO_IEEE.SSCS/LDO#2ePROJ/dynamic_resB_TB/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          LDO.PROJ:dynamic_resB_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617/tools.lnx86/dfII/etc/si/control.spectre /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Aug  7 11:17:16 2024
+ERROR (OSSGLD-102): Failed to resolve inherited connections on instance 'NM0' in cellview
+'LDO.PROJ/dynamic_resB/schematic'. This is because the netset property 'bulkn' on this instance refers to
+a signal 'gnd!', which is not present in the same cellview. Ensure that the value
+of the netset property is the name of an existing signal in the same
+cellview.
+ERROR (OSSGLD-102): Failed to resolve inherited connections on instance 'NM2' in cellview
+'LDO.PROJ/dynamic_resB/schematic'. This is because the netset property 'bulkn' on this instance refers to
+a signal 'gnd!', which is not present in the same cellview. Ensure that the value
+of the netset property is the name of an existing signal in the same
+cellview.
+End netlisting Aug  7 11:17:16 2024
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          LDO.PROJ:dynamic_resB_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.0/1/LDO.PROJ:dynamic_resB_TB:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Begin Incremental Netlisting Aug  7 11:17:16 2024
+ERROR (OSSGLD-102): Failed to resolve inherited connections on instance 'NM0' in cellview
+'LDO.PROJ/dynamic_resB/schematic'. This is because the netset property 'bulkn' on this instance refers to
+a signal 'gnd!', which is not present in the same cellview. Ensure that the value
+of the netset property is the name of an existing signal in the same
+cellview.
+ERROR (OSSGLD-102): Failed to resolve inherited connections on instance 'NM2' in cellview
+'LDO.PROJ/dynamic_resB/schematic'. This is because the netset property 'bulkn' on this instance refers to
+a signal 'gnd!', which is not present in the same cellview. Ensure that the value
+of the netset property is the name of an existing signal in the same
+cellview.
+End netlisting Aug  7 11:17:16 2024
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
+
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
+
+
+
+

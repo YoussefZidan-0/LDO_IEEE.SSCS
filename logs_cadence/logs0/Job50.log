@@ -1,0 +1,86 @@
+\# Program start time UTC 2024.08.07 15:16:58.511
+\# Local time Wednesday 7 August 2024, 11:16 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
+\o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso2902 -mpshost berkeley -davinciService DaVinciService_2902_1723029232 -log /home/cadence/LDO_IEEE.SSCS/logs_cadence/logs0/Job50.log -licenseLockFileName /home/cadence/LDO_IEEE.SSCS/.tmp_cadence/.berkeley_2902 -nograph -nostdin -axlChildIdFlag 50
+\# Host name (type):	berkeley (x86_64)
+\# Operating system:	Linux 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19)
+\# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
+\# X display name (WxH):	berkeley:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 8123)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        370 MB
+\# Available memory:	     10,316 MB
+\# System memory:	     12,083 MB
+\# Maximum memory size:	     11,793 MB
+\# Max mem available:	     10,396 MB
+\# Initial memory used:	         80 MB
+\#        process size:	        888 MB
+\# Qt version:		4.8.5
+\# Window Manager:	other
+\# User Name:		cadence
+\o Working Directory:	berkeley:/home/cadence/LDO_IEEE.SSCS
+\# Process Id:		8131
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\w *WARNING* The directory: '/home/cadence/LDO_IEEE.SSCS/ldoproj1' does not exist
+\w 	but was defined in libFile '/home/cadence/LDO_IEEE.SSCS/cds.lib' for Lib 'ldoproj1'.
+\# Memory report: using         192 MB, process size 1,132 MB at UTC 2024.08.07 15:17:00.026
+\w *WARNING* The directory: '/home/cadence/LDO_IEEE.SSCS/ldoproj' does not exist
+\w 	but was defined in libFile '/home/cadence/LDO_IEEE.SSCS/cds.lib' for Lib 'ldoproj'.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\# Available memory:         10,211 MB at UTC 2024.08.07 15:17:08.859
+\# Memory report: Maximum memory size now 10,405 MB at UTC 2024.08.07 15:17:08.859
+\o Job 50 timed out after no activity in 300 seconds.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 

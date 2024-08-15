@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/18/2015 00:06 (sjfnl678) $
 \o Sub version:		sub-version  p009 
-\o Arguments:		-unmapped -mpssession virtuoso4283 -mpshost berkeley 
+\o Arguments:		-unmapped -mpssession virtuoso1574 -mpshost berkeley 
 \o Working Directory:	berkeley:/home/cadence/LDO_IEEE.SSCS
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -18,23 +18,24 @@
 \w 	but was defined in libFile '/home/cadence/LDO_IEEE.SSCS/cds.lib' for Lib 'ldoproj'.
 \a nrResizeWindow(cdsLibManager list(0 117 1590 671))
 \a cdsLibManager->libListBox->value = "LDO.PROJ"
-\a cdsLibManager->cellListBox->value = "lpf"
-\a cdsLibManager->cellLineEdit->value = "lpf"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libLineEdit->value = "LDO.PROJ"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->cellListBox->value = "lpf"
+\a cdsLibManager->cellListBox->value = "my_mos_LUTGEN"
+\a cdsLibManager->cellLineEdit->value = "my_mos_LUTGEN"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "MOS_LUTGEN"
+\a cdsLibManager->viewLineEdit->value = "MOS_LUTGEN"
+\a cdsLibManager->viewListBox->value = "MOS_LUTGEN2"
+\a cdsLibManager->viewLineEdit->value = "MOS_LUTGEN2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \w Warning: The directory: '/home/cadence/LDO_IEEE.SSCS/ldoproj1' does not exist
 \w 	but was defined in libFile '/home/cadence/LDO_IEEE.SSCS/cds.lib' for Lib 'ldoproj1'.
@@ -42,22 +43,13 @@
 \w 	but was defined in libFile '/home/cadence/LDO_IEEE.SSCS/cds.lib' for Lib 'ldoproj'.
 \a cdsLibManager->libListBox->value = "LDO.PROJ"
 \a cdsLibManager->libLineEdit->value = "LDO.PROJ"
-\a cdsLibManager->cellListBox->value = "lpf"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "lpf"
+\a cdsLibManager->cellListBox->value = "my_mos_LUTGEN"
+\a cdsLibManager->cellLineEdit->value = "my_mos_LUTGEN"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "lpf"
 \a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)

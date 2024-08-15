@@ -1,0 +1,99 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = LDO.PROJ
+	Cell         = dynamic_resB_TB
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = LDO.PROJ:dynamic_resB_TB:1_none_Interactive.6
+	Results DB   = /home/cadence/LDO_IEEE.SSCS/LDO#2ePROJ/dynamic_resB_TB/adexl/results/data/Interactive.6.rdb
+	Results Dir  = /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.6/1/LDO.PROJ:dynamic_resB_TB:1
+	Results Loc  = /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data
+	Project Dir  = /home/cadence/simulation
+	Setup DB loc = /home/cadence/LDO_IEEE.SSCS/LDO#2ePROJ/dynamic_resB_TB/adexl
+	File Encoding = 0
+
+
+*Info*    Spectre controlMode is set "batch".
+
+
+
+
+
+
+*Info*    Run start for Point ID (6 1) on testbench [
+          LDO.PROJ:dynamic_resB_TB:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Vc = "0"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.6/1/LDO.PROJ:dynamic_resB_TB:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.6/1/LDO.PROJ:dynamic_resB_TB:1
+
+
+*Info*    Creating Netlist for Point ID (6 1)
+
+generate netlist...
+Begin Incremental Netlisting Aug  7 11:31:10 2024
+End netlisting Aug  7 11:31:10 2024
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [
+          LDO.PROJ:dynamic_resB_TB:1 ] for Point ID (6 1).
+
+Delete psf data in /home/cadence/simulation/LDO.PROJ/dynamic_resB_TB/adexl/results/data/Interactive.6/1/LDO.PROJ:dynamic_resB_TB:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+ERROR (ADEXL-2708): Evaluation of output '(VS("/vdd!") / IS("/I0/Vn"))' failed for point:'1' test:'LDO.PROJ:dynamic_resB_TB:1'
+	Expression:'(VS("/vdd!") / IS("/I0/Vn"))'
+	because of the following error(s)
+	*Error* quotient: can't handle (srrWave:0x27638020 / nil).
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2708): Evaluation of output '(VDC("/vdd!") / IDC("/I0/Vn"))' failed for point:'1' test:'LDO.PROJ:dynamic_resB_TB:1'
+	Expression:'(VDC("/vdd!") / IDC("/I0/Vn"))'
+	because of the following error(s)
+	*Error* quotient: can't handle (1.2 / nil).
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (6 1) on testbench [
+          LDO.PROJ:dynamic_resB_TB:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.
