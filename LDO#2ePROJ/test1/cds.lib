@@ -1,0 +1,2 @@
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+#Removed by ddDeleteObj: DEFINE test_becnh /home/cadence/LDO/test_becnh

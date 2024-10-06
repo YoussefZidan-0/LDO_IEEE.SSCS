@@ -1,0 +1,43 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Sep 28 14:25:18 2024 
+Best design point: 1
+Design specs: 
+	LDO:test1:1	corner	Nominal - 
+	VF("/VOUT")		Error	No
+	dB20(VF("/VOUT"))		Error	No
+	ymax(mag(VF("/VOUT")))		Error	No
+	bandwidth(VF("/VOUT") 3 "low")		Error	No
+	ymax(mag(getData("loopGain" ?result "stb")))		95.82
+	phaseMargin(mag(getData("loopGain" ?result "stb")))		180
+	bandwidth(getData("loopGain" ?result "stb") 3 "low")		1.282M
+Design parameters: 
+	VDS		2.4
+	VGS		500m
+	vdd_ac		1
+	VIN		0
+	IREF		80u
+	LN		4u
+	LP		150n
+	WN		10u
+	WP		10u
+	WP2		40u
+	VOCM		2.2
+	CL		3p
+	VICM		825m
+	VICM_AC		0
+	VID		0
+	LN2		4u
+	WN2		10u
+	MN		4
+	MP		8
+	CC		0
+	Rvdd		0
+	VREF		850m
+	LP2		10u
+
+Interactive.126
+Number of points completed: 1
+Number of simulation errors: 4
+Interactive.126 completed. 
+Current time: Sat Sep 28 14:25:30 2024 

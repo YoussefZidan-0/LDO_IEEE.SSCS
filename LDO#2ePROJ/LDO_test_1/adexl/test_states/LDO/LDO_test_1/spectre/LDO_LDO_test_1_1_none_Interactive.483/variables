@@ -1,0 +1,364 @@
+savedComponent = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40)
+(unless tmp1
+tmp1 = make_sevVariableStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "LCASCN"
+tmp1->expression = ""
+tmp1->index = 1
+(unless tmp2
+tmp2 = make_sevVariableStruct()
+)
+(unless tmp2
+tmp2 = (ncons nil)
+)
+tmp2->name = "LP2"
+tmp2->expression = ""
+tmp2->index = 2
+(unless tmp3
+tmp3 = make_sevVariableStruct()
+)
+(unless tmp3
+tmp3 = (ncons nil)
+)
+tmp3->name = "WCASCN"
+tmp3->expression = ""
+tmp3->index = 3
+(unless tmp4
+tmp4 = make_sevVariableStruct()
+)
+(unless tmp4
+tmp4 = (ncons nil)
+)
+tmp4->name = "WP2"
+tmp4->expression = ""
+tmp4->index = 4
+(unless tmp5
+tmp5 = make_sevVariableStruct()
+)
+(unless tmp5
+tmp5 = (ncons nil)
+)
+tmp5->name = "IREF"
+tmp5->expression = ""
+tmp5->index = 5
+(unless tmp6
+tmp6 = make_sevVariableStruct()
+)
+(unless tmp6
+tmp6 = (ncons nil)
+)
+tmp6->name = "LN"
+tmp6->expression = ""
+tmp6->index = 6
+(unless tmp7
+tmp7 = make_sevVariableStruct()
+)
+(unless tmp7
+tmp7 = (ncons nil)
+)
+tmp7->name = "LN2"
+tmp7->expression = ""
+tmp7->index = 7
+(unless tmp8
+tmp8 = make_sevVariableStruct()
+)
+(unless tmp8
+tmp8 = (ncons nil)
+)
+tmp8->name = "LP"
+tmp8->expression = ""
+tmp8->index = 8
+(unless tmp9
+tmp9 = make_sevVariableStruct()
+)
+(unless tmp9
+tmp9 = (ncons nil)
+)
+tmp9->name = "MN"
+tmp9->expression = ""
+tmp9->index = 9
+(unless tmp10
+tmp10 = make_sevVariableStruct()
+)
+(unless tmp10
+tmp10 = (ncons nil)
+)
+tmp10->name = "MP"
+tmp10->expression = ""
+tmp10->index = 10
+(unless tmp11
+tmp11 = make_sevVariableStruct()
+)
+(unless tmp11
+tmp11 = (ncons nil)
+)
+tmp11->name = "WN"
+tmp11->expression = ""
+tmp11->index = 11
+(unless tmp12
+tmp12 = make_sevVariableStruct()
+)
+(unless tmp12
+tmp12 = (ncons nil)
+)
+tmp12->name = "WN2"
+tmp12->expression = ""
+tmp12->index = 12
+(unless tmp13
+tmp13 = make_sevVariableStruct()
+)
+(unless tmp13
+tmp13 = (ncons nil)
+)
+tmp13->name = "WP"
+tmp13->expression = ""
+tmp13->index = 13
+(unless tmp14
+tmp14 = make_sevVariableStruct()
+)
+(unless tmp14
+tmp14 = (ncons nil)
+)
+tmp14->name = "L_DAC"
+tmp14->expression = ""
+tmp14->index = 14
+(unless tmp15
+tmp15 = make_sevVariableStruct()
+)
+(unless tmp15
+tmp15 = (ncons nil)
+)
+tmp15->name = "W_DAC"
+tmp15->expression = ""
+tmp15->index = 15
+(unless tmp16
+tmp16 = make_sevVariableStruct()
+)
+(unless tmp16
+tmp16 = (ncons nil)
+)
+tmp16->name = "b0"
+tmp16->expression = ""
+tmp16->index = 16
+(unless tmp17
+tmp17 = make_sevVariableStruct()
+)
+(unless tmp17
+tmp17 = (ncons nil)
+)
+tmp17->name = "b1"
+tmp17->expression = ""
+tmp17->index = 17
+(unless tmp18
+tmp18 = make_sevVariableStruct()
+)
+(unless tmp18
+tmp18 = (ncons nil)
+)
+tmp18->name = "b2"
+tmp18->expression = ""
+tmp18->index = 18
+(unless tmp19
+tmp19 = make_sevVariableStruct()
+)
+(unless tmp19
+tmp19 = (ncons nil)
+)
+tmp19->name = "b3"
+tmp19->expression = ""
+tmp19->index = 19
+(unless tmp20
+tmp20 = make_sevVariableStruct()
+)
+(unless tmp20
+tmp20 = (ncons nil)
+)
+tmp20->name = "b4"
+tmp20->expression = ""
+tmp20->index = 20
+(unless tmp21
+tmp21 = make_sevVariableStruct()
+)
+(unless tmp21
+tmp21 = (ncons nil)
+)
+tmp21->name = "Rz"
+tmp21->expression = ""
+tmp21->index = 21
+(unless tmp22
+tmp22 = make_sevVariableStruct()
+)
+(unless tmp22
+tmp22 = (ncons nil)
+)
+tmp22->name = "VBAISN"
+tmp22->expression = ""
+tmp22->index = 22
+(unless tmp23
+tmp23 = make_sevVariableStruct()
+)
+(unless tmp23
+tmp23 = (ncons nil)
+)
+tmp23->name = "VCASCN"
+tmp23->expression = ""
+tmp23->index = 23
+(unless tmp24
+tmp24 = make_sevVariableStruct()
+)
+(unless tmp24
+tmp24 = (ncons nil)
+)
+tmp24->name = "VBAIS"
+tmp24->expression = ""
+tmp24->index = 24
+(unless tmp25
+tmp25 = make_sevVariableStruct()
+)
+(unless tmp25
+tmp25 = (ncons nil)
+)
+tmp25->name = "Av2"
+tmp25->expression = ""
+tmp25->index = 25
+(unless tmp26
+tmp26 = make_sevVariableStruct()
+)
+(unless tmp26
+tmp26 = (ncons nil)
+)
+tmp26->name = "Rou2t"
+tmp26->expression = ""
+tmp26->index = 26
+(unless tmp27
+tmp27 = make_sevVariableStruct()
+)
+(unless tmp27
+tmp27 = (ncons nil)
+)
+tmp27->name = "Rout2"
+tmp27->expression = ""
+tmp27->index = 27
+(unless tmp28
+tmp28 = make_sevVariableStruct()
+)
+(unless tmp28
+tmp28 = (ncons nil)
+)
+tmp28->name = "W_SMALL"
+tmp28->expression = ""
+tmp28->index = 28
+(unless tmp29
+tmp29 = make_sevVariableStruct()
+)
+(unless tmp29
+tmp29 = (ncons nil)
+)
+tmp29->name = "C_F"
+tmp29->expression = ""
+tmp29->index = 29
+(unless tmp30
+tmp30 = make_sevVariableStruct()
+)
+(unless tmp30
+tmp30 = (ncons nil)
+)
+tmp30->name = "Cc"
+tmp30->expression = ""
+tmp30->index = 30
+(unless tmp31
+tmp31 = make_sevVariableStruct()
+)
+(unless tmp31
+tmp31 = (ncons nil)
+)
+tmp31->name = "Av"
+tmp31->expression = ""
+tmp31->index = 31
+(unless tmp32
+tmp32 = make_sevVariableStruct()
+)
+(unless tmp32
+tmp32 = (ncons nil)
+)
+tmp32->name = "L"
+tmp32->expression = ""
+tmp32->index = 32
+(unless tmp33
+tmp33 = make_sevVariableStruct()
+)
+(unless tmp33
+tmp33 = (ncons nil)
+)
+tmp33->name = "W"
+tmp33->expression = ""
+tmp33->index = 33
+(unless tmp34
+tmp34 = make_sevVariableStruct()
+)
+(unless tmp34
+tmp34 = (ncons nil)
+)
+tmp34->name = "NF"
+tmp34->expression = ""
+tmp34->index = 34
+(unless tmp35
+tmp35 = make_sevVariableStruct()
+)
+(unless tmp35
+tmp35 = (ncons nil)
+)
+tmp35->name = "GM"
+tmp35->expression = ""
+tmp35->index = 35
+(unless tmp36
+tmp36 = make_sevVariableStruct()
+)
+(unless tmp36
+tmp36 = (ncons nil)
+)
+tmp36->name = "Cout"
+tmp36->expression = ""
+tmp36->index = 36
+(unless tmp37
+tmp37 = make_sevVariableStruct()
+)
+(unless tmp37
+tmp37 = (ncons nil)
+)
+tmp37->name = "ILOAD"
+tmp37->expression = ""
+tmp37->index = 37
+(unless tmp38
+tmp38 = make_sevVariableStruct()
+)
+(unless tmp38
+tmp38 = (ncons nil)
+)
+tmp38->name = "Rout"
+tmp38->expression = ""
+tmp38->index = 38
+(unless tmp39
+tmp39 = make_sevVariableStruct()
+)
+(unless tmp39
+tmp39 = (ncons nil)
+)
+tmp39->name = "VIN"
+tmp39->expression = ""
+tmp39->index = 39
+(unless tmp40
+tmp40 = make_sevVariableStruct()
+)
+(unless tmp40
+tmp40 = (ncons nil)
+)
+tmp40->name = "VREF"
+tmp40->expression = ""
+tmp40->index = 40
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40)
+)

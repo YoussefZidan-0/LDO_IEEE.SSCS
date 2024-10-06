@@ -1,0 +1,2530 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>LDO:test1:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>test1</value>
+					</option>
+					<option>lib
+						<value>LDO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>LDO:test1:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>test1</value>
+					</option>
+					<option>lib
+						<value>LDO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>VDS
+				<value>2.4</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VGS
+				<value>500m</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vdd_ac
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VIN
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IREF
+				<value>100u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LN
+				<value>500n</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LP
+				<value>150n</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WN
+				<value>20u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WP
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WP2
+				<value>80u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VOCM
+				<value>2.2</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>3p</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VICM
+				<value>0.825</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VICM_AC
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VID
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LN2
+				<value>LN</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WN2
+				<value>20u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>MN
+				<value>4</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>MP
+				<value>8</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CC
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Rvdd
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VREF
+				<value>0.85</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LP2
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>LCASCN
+				<value>150n</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VCASCN
+				<value>1.5</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WCASCN
+				<value>3u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:test1:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.126
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.126</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>80u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:25:15 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.126.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.126.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142515987</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.126</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.126</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.126.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.126.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.127
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.127</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>80u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:25:54 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.127.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.127.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142554715</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.127</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.127</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.127.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.127.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.128
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.128</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>80u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:26:20 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.128.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.128.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142620519</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.128</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.128</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.128.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.128.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.129
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.129</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>80u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:26:47 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.129.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.129.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142647595</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.129</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.129</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.129.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.129.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.130
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.130</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:28:24 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.130.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.130.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142824341</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.130</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.130</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.130.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.130.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.131
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.131</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:28:51 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.131.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.131.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142851812</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.131</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.131</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.131.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.131.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.132
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.132</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LCASCN
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WCASCN
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:33:59 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.132.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.132.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_143359779</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.132</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.132</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.132.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.132.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.133
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.133</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LCASCN
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WCASCN
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:34:38 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.133.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.133.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_143438869</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.133</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.133</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.133.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.133.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.134
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.134</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>40u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LCASCN
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WCASCN
+						<value>3u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:35:23 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.134.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.134.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_143523540</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.134</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.134</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.134.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.134.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.135
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>LDO:test1:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:test1:1_none_Interactive.135</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>test1</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>VDS
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VGS
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>vdd_ac
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>100u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WP2
+						<value>80u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VOCM
+						<value>2.2</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3p</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM
+						<value>0.825</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VICM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VID
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LN2
+						<value>LN</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WN2
+						<value>20u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MN
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>MP
+						<value>8</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rvdd
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LP2
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LCASCN
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VCASCN
+						<value>1.5</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WCASCN
+						<value>3u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:test1:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat Sep 28 14:39:06 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/test1/adexl/results/data/Interactive.135.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.135.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_143906980</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/test1/adexl/results/data/Interactive.135</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/test1/adexl/results/data/Interactive.135</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/test1/adexl/results/data/Interactive.135.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.135.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

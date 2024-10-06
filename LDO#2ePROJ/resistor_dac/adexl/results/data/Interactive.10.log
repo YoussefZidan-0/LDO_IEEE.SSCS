@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Sep 26 10:17:19 2024 
+Best design point: 1
+Design specs: 
+	LDO:resistor_dac:1	corner	Nominal - 
+	VOUT_DC		854.7m
+Design parameters: 
+	b4		2.4
+	L		150n
+	W		10u
+	b0		2.4
+	b1		2.4
+	b2		2.4
+	b3		2.4
+	VREF		850m
+	IREF		10u
+
+Interactive.10
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.10 completed. 
+Current time: Thu Sep 26 10:17:28 2024 

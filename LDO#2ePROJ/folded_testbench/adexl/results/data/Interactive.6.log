@@ -1,0 +1,25 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Sep 28 10:39:07 2024 
+Best design point: 1
+Design specs: 
+	LDO:folded_testbench:1	corner	Nominal - 
+	bandwidth(v("/VOUT" ?result "ac") 3 "low")		1.313M
+	ymax(mag(v("/VOUT" ?result "ac")))		46.8
+Design parameters: 
+	CL		1p
+	IREF		100u
+	VCASCN		1.22
+	VCASCP		1.932
+	VDD		2.4
+	VDD_AC		0
+	VICM		825m
+	VICM_AC		0
+	VID_AC		1
+	VID_DC		0
+
+Interactive.6
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.6 completed. 
+Current time: Sat Sep 28 10:39:15 2024 

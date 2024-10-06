@@ -1,0 +1,58 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Oct  1 16:05:17 2024 
+Best design point: 4
+Design specs: 
+	LDO:LDO_test_1:1	corner	Nominal - 
+	FOM		Error	No
+	Iq		Error	No
+	((IT("/I29/M0/S") + IT("/I29/M8/S") + IT("/I29/M7/S") + IT("/I29/M1/S")) * 4.44e-08)		Error	No
+	(IT("/V0/PLUS") - IT("/I8/PLUS"))		Error	No
+	(IS("/V0/PLUS") - IS("/I4/PLUS"))		-64.45m
+Design parameters: 
+	Cout		1p
+	ILOAD		100u
+	Rout		10k
+	VIN		3.225
+	VREF		850m
+	GM		100m
+	NF		150
+	L		150n
+	W		10u
+	Av		125
+	Cc		4p
+	C_F		7p
+	Av2		20
+	Rou2t		0
+	Rout2		100
+	W_SMALL		10u
+	VBAIS		1
+	VBAISN		715m
+	VCASCN		1.53
+	Rz		750
+	b0		2.4
+	b1		2.4
+	b2		2.4
+	b3		2.4
+	b4		2.4
+	L_DAC		150n
+	W_DAC		10u
+	IREF		170u
+	LN		400n
+	LN2		400n
+	LP		150n
+	MN		4
+	MP		8
+	WN		20u
+	WN2		20u
+	WP		30u
+	LCASCN		150n
+	LP2		4u
+	WCASCN		2u
+	WP2		100u
+
+Interactive.556
+Number of points completed: 25
+Number of simulation errors: 100
+Interactive.556 completed. 
+Current time: Tue Oct  1 16:05:43 2024 

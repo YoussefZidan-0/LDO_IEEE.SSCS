@@ -1,0 +1,22 @@
+\o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/18/2015 00:06 (sjfnl678) $
+\o Sub version:		sub-version  p009 
+\o Arguments:		-mpssession virtuoso4930 -mpshost berkeley 
+\o Working Directory:	berkeley:/home/cadence/LDO
+\o 64-bit offsets
+\o changeWorkingDir("/home/cadence/LDO") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1283 36 621 1008))
+\o Qt version: 		4.8.5
+\o Log file is "/home/cadence/LDO/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->fileExitButton->value = t
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

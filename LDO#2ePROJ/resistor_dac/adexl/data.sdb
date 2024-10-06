@@ -1,0 +1,1503 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">LDO:resistor_dac:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>resistor_dac</value>
+					</option>
+					<option>lib
+						<value>LDO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>LDO:resistor_dac:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>resistor_dac</value>
+					</option>
+					<option>lib
+						<value>LDO</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<disabledtests></disabledtests>
+		<vars>
+			<var>b4
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L
+				<value>150n</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>b0
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>b1
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>b2
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>b3
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VREF
+				<value>0.85</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>IREF
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 09:09:38 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_090938538</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.6
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.6</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 09:10:14 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.6.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_091014823</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.6</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.6</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.6.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.6.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.7
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.7</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 09:10:46 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.7.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_091046318</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.7</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.7</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.7.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.7.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.8</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 09:11:13 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.8.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_091113214</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.8</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.8</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.8.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.9</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 09:12:18 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.9.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_091218950</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.9</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.9</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.9.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.9.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.10
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.10</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 10:17:15 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.10.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_101715492</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.10</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.10</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.10.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.10.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.11</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>2.4</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 10:19:45 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.11.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.11.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_101945555</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.11</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.11</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.11.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.11.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.12
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.12</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 10:20:40 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.12.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.12.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_102041028</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.12</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.12</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.12.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.13
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.13</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 10:22:09 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.13.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.13.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_102210010</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.13</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.13</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.13.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.13.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.14
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">LDO:resistor_dac:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>LDO:resistor_dac:1_none_Interactive.14</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>resistor_dac</value>
+							</option>
+							<option>lib
+								<value>LDO</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<vars>
+					<var>b4
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b0
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b1
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b2
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>b3
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VREF
+						<value>0.85</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>IREF
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">LDO:resistor_dac:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu Sep 26 10:24:01 2024
+</timestamp>
+			<resultsname>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.14.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.14.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_102401522</localpsfdir>
+			<psfdir>/home/cadence/simulation/LDO/resistor_dac/adexl/results/data/Interactive.14</psfdir>
+			<simdir>$AXL_PROJECT_DIR/LDO/resistor_dac/adexl/results/data/Interactive.14</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/LDO/resistor_dac/adexl/results/data/Interactive.14.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.14.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

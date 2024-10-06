@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Aug  8 11:46:45 2024 
+Best design point: 1
+Design specs: 
+	LDO:test_bench_pmos:1	corner	Nominal - 
+Design parameters: 
+	L		1u
+	VDS		3
+	VGS		2.2
+	VSB		0
+	W		10u
+	NF		56
+
+Interactive.15
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.15 completed. 
+Current time: Thu Aug  8 11:46:52 2024 
